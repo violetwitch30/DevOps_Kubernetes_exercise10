@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: hellodocker
-          image: violetwitch/hellodocker:latest #Replace with your image <dockerusername>/hellodocker:latest
+          image: violetwitch/hellodocker:a9f67a455b4ab194cdd1be436ddc862de4ef60bc #Replace with your image <dockerusername>/hellodocker:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
